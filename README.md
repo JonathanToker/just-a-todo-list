@@ -1,4 +1,5 @@
-# React + TypeScript + Vite
+# Just a Todo List
+![image](https://github.com/JonathanToker/just-a-todo-list/assets/116793943/08b408b2-7c4f-4106-84d2-5a0930e3384d)
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
