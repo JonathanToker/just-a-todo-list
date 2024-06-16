@@ -1,0 +1,55 @@
+.container {
+  max-width: 400px;
+  background-color: rgb(57, 57, 57);
+  padding: 1em;
+  border-radius: 15px;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+}
+.input-field {
+  border: none;
+  padding: 1em;
+  font-size: 15px;
+  background-color: black;
+  border-radius: 5px;
+}
+.error-message {
+  color: red;
+}
+.submit-button {
+  padding: 1em;
+  font-size: 15px;
+  border-radius: 10px;
+  margin: 2px;
+  border: none;
+  user-select: none;
+  cursor: pointer;
+}
+.list-item-button {
+  user-select: none;
+  cursor: pointer;
+  font-size: 15px;
+}
+.todos-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.list-item {
+  display: flex;
+  gap: 15px;
+  font-size: 15px;
+  position: relative;
+}
+.list-item::before {
+  content: "•"; /* Bullet character */
+  color: white; /* Color of the bullet */
+  position: absolute;
+  left: -20px;
+  top: 4px;
+  font-size: 20px; /* Adjust size as needed */
+}
+.list-item-span {
+  font-size: 25px;
+}
